@@ -8,11 +8,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 }
-/*NAVIGATION*/
-#mixx-logo {
-    width: 100%;
-    margin-left: 50px;
+
+nav {
+    display: block;
 }
+
+/*NAVIGATION*/
 .navigation-container {
     z-index: 1;
     width: 100%;
@@ -24,19 +25,38 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid transparent;
     background: transparent;
 }
-nav.top-bar {
+#navigation .navigation-container .top-bar {
     background: transparent;
+    max-width: 65.5rem;
+    margin: 0px auto;
+}
+.top-bar {
+    overflow: visible;
+    height: 85px;
+    line-height: 85px;
+    position: relative;
 }
 .top-bar .title-area {
-    width: 300px;
+    float: left;
+    position: relative;
+    margin: 0px;
 }
+.top-bar .right {
+    padding-top: 20px;
+}
+
+/*logo display*/
+#navigation .navigation-container .name img {
+    width: 140px;
+    transition: all 00.25s ease 0s;
+}
+
+/*navigation transparency*/
 .navigation-container .top-bar-section ul li,
 .navigation-container .top-bar-section li:not(.has-form) a:not(.button) {
     background: transparent;
 }
-.navigation-container .top-bar {
-    max-width: 62.5rem;
-}
+
 
 /*NAVIGATION TEXT*/
 .top-bar .top-bar-section ul li > a {
