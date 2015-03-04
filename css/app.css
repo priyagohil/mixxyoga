@@ -105,7 +105,7 @@ header .headline {
 .video-container a.sign-up-button span:hover {
     border: 1px solid #8DC73F;
     color: #FFF;
-    background-color: #8DC73F;
+  /*  background-color: #8DC73F;*/
 }
 
 /*VIDEO BACKGROUND*/
@@ -136,7 +136,7 @@ video {
     min-height: 100%;
     margin-left: 0px;
     margin-bottom: -3px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.65);
 }
 /* Responsive
 -------------------------------------------------------------- */
