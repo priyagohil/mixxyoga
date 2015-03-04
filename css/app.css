@@ -108,6 +108,25 @@ header .headline {
 
 /*VIDEO BACKGROUND*/
 
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.video-container {
+    position: relative;
+    background: #FFF none repeat scroll 0% 0%;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+}
+.video_full_width {
+    transition: all 0.25s ease 0s;
+    min-width: 100%;
+    min-height: 100%;
+    margin-left: 0px;
+    margin-bottom: -3px;
+}
 /* Responsive
 -------------------------------------------------------------- */
 
