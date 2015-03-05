@@ -28,87 +28,91 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <!-- Navigation -->
-    <div id="navigation">
-        <div class="navigation-container">
-            <nav class="top-bar" data-topbar role="navigation">
-              <ul class="title-area">
-                <li class="name">
-                    <a href="#">
-                        <img id="mixx-logo" src= "img/my_logo_white_alternative.png" alt="mixx yoga logo"></img>
-                    </a>
-                </li>
-                 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-              </ul>
+  
+    <div class="off-canvas-wrap" data-offcanvas="data-offcanvas">
+		<div class="inner-wrap">
+  
+			<!-- Navigation -->
+			<div id="navigation">
+				<div class="navigation-container show-for-medium-up">
+					<nav class="top-bar" data-topbar role="navigation">
+					  <ul class="title-area">
+						<li class="name">
+							<a href="#">
+								<img id="mixx-logo" src= "img/my_logo_white_alternative.png" alt="mixx yoga logo"></img>
+							</a>
+						</li>
+						 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+						<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+					  </ul>
 
-                <section class="top-bar-section">
-                    <!-- Right Nav Section -->
-                    <ul class="right">
-                        <li> <a href="https://mixxyoga.frontdeskhq.com/categories/12803">Class Info</a></li>
-                        <li class="forward-slash"> / </li>
-                        <li><a href="https://mixxyoga.frontdeskhq.com/schedule">Schedule</a></li>
-                         <li class="forward-slash"> / </li>
-                        <li><a href="#">Instructors</a></li>
-                         <li class="forward-slash"> / </li>
-                        <li><a href="https://mixxyoga.frontdeskhq.com/shop">Plans &amp; Passes</a></li>
-                         <li class="forward-slash"> / </li>
-                        <li><a href="https://mixxyoga.frontdeskhq.com/accounts/sign_in">Sign Up</a></li>
-                    </ul>
-                </section>
-            </nav>
-        </div>
-</div>
+						<section class="top-bar-section">
+							<!-- Right Nav Section -->
+							<ul class="right">
+								<li> <a href="https://mixxyoga.frontdeskhq.com/categories/12803">Class Info</a></li>
+								<li class="forward-slash"> / </li>
+								<li><a href="https://mixxyoga.frontdeskhq.com/schedule">Schedule</a></li>
+								 <li class="forward-slash"> / </li>
+								<li><a href="#">Instructors</a></li>
+								 <li class="forward-slash"> / </li>
+								<li><a href="https://mixxyoga.frontdeskhq.com/shop">Plans &amp; Passes</a></li>
+								 <li class="forward-slash"> / </li>
+								<li><a href="https://mixxyoga.frontdeskhq.com/accounts/sign_in">Sign Up</a></li>
+							</ul>
+						</section>
+					</nav>
+				</div>
+			</div>
 
-    <!-- Mobile Nav -->
-  <!--    <div class="off-canvas-wrap" data-offcanvas>
-      <div class="inner-wrap">
-        <nav class="tab-bar">
-          <section class="left-small">
-            <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
-          </section>
+			<!-- Mobile Nav -->
+			<nav class="tab-bar hide-for-medium-up">
+			  <!--<section class="left-small">
+				<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+			  </section>-->
 
-          <section class="middle tab-bar-section">
-            <h1 class="title">Mixx Yoga</h1>
-          </section>
+			  <section class="middle tab-bar-section">
+				<h1 class="title">Mixx Yoga</h1>
+			  </section>
 
-          <section class="right-small">
-            <a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
-          </section>
-        </nav>
+			  <section class="right-small">
+				<a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
+			  </section>
+			</nav>
 
-        <aside class="left-off-canvas-menu">
-          <ul class="off-canvas-list">
-            <li><label>Mixx</label></li>
-            <li><a href="https://mixxyoga.frontdeskhq.com/categories/12803">Class Info</a></li>
-            <li><a href="https://mixxyoga.frontdeskhq.com/schedule">Schedule</a></li>
-            <li><a href="#">Instructors</a></li>
-            <li><a href="https://mixxyoga.frontdeskhq.com/shop">Plans &amp; Passes</a></li>
-            <li><a href="https://mixxyoga.frontdeskhq.com/accounts/sign_in">Sign Up</a></li>
-          </ul>
-        </aside>
-      </div>
-    </div> -->
+			<aside class="right-off-canvas-menu">
+			  <ul class="off-canvas-list">
+				<li><label>Mixx</label></li>
+				<li><a href="https://mixxyoga.frontdeskhq.com/categories/12803">Class Info</a></li>
+				<li><a href="https://mixxyoga.frontdeskhq.com/schedule">Schedule</a></li>
+				<li><a href="#">Instructors</a></li>
+				<li><a href="https://mixxyoga.frontdeskhq.com/shop">Plans &amp; Passes</a></li>
+				<li><a href="https://mixxyoga.frontdeskhq.com/accounts/sign_in">Sign Up</a></li>
+			  </ul>
+			</aside>
+			
+			<a class="exit-off-canvas"></a>
 
-    <!-- Video -->
-    <div class="video-container">
-            <video class="video_full_width" preload="auto" autoplay="autoplay" loop="loop">
-                <source type="video/mp4" src="img/mixx-yoga.mp4"></source>
-                Your browser does not suppoer the video tag.
-            </video>
-        <header class="title-section absolute-centered">
-            <h1 class="headline">
-                You already have a <b>6 pack</b>
-            </h1>
-            <h2 class="headline">
-                We're just here to show it
-            </h2>   
-        <a class="sign-up-button" href="https://mixxyoga.frontdeskhq.com/schedule?utm_source=Mixx%20Yoga&utm_medium=web&utm_campaign=fd-share-button#/list?dt=2015-03-02&lt=staff">
-            <span>Mixx up your workout</span>
-        </a>
-        </header>
-    </div>
-        
+			<!-- Video -->
+			<div class="video-container">
+					<video class="video_full_width" preload="auto" autoplay="autoplay" loop="loop">
+						<source type="video/mp4" src="img/mixx-yoga.mp4"></source>
+						Your browser does not suppoer the video tag.
+					</video>
+				<header class="title-section absolute-centered">
+					<h1 class="headline">
+						You already have a <b>6 pack</b>
+					</h1>
+					<h2 class="headline">
+						We're just here to show it
+					</h2>   
+				<a class="sign-up-button" href="https://mixxyoga.frontdeskhq.com/schedule">
+					<span>Mixx up your workout</span>
+				</a>
+				</header>
+			</div>
+		</div>
+    </div>        
+		
         <!-- Javascript -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
