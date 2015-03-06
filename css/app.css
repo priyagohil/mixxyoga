@@ -36,23 +36,55 @@ body {
     font-style: normal;
 
 }
-/*testing font*/
 @font-face {
-    font-family: '2dumbregular';
-    src: url('fonts/2Dumb-webfont.eot');
-    src: url('fonts/2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/2Dumb-webfont.woff') format('woff'),
-         url('fonts/2Dumb-webfont.ttf') format('truetype'),
-         url('fonts/2Dumb-webfont.svg#2dumbregular') format('svg');
+    font-family: 'texgyreadventorregular';
+    src: url('texgyreadventor-regular-webfont.eot');
+    src: url('texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-regular-webfont.woff') format('woff'),
+         url('texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'texgyreadventorbold';
+    src: url('texgyreadventor-bold-webfont.eot');
+    src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-bold-webfont.woff') format('woff'),
+         url('texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('texgyreadventor-bold-webfont.svg#texgyreadventorbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'texgyreadventorbold_italic';
+    src: url('texgyreadventor-bolditalic-webfont.eot');
+    src: url('texgyreadventor-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-bolditalic-webfont.woff') format('woff'),
+         url('texgyreadventor-bolditalic-webfont.ttf') format('truetype'),
+         url('texgyreadventor-bolditalic-webfont.svg#texgyreadventorbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'texgyreadventoritalic';
+    src: url('texgyreadventor-italic-webfont.eot');
+    src: url('texgyreadventor-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-italic-webfont.woff') format('woff'),
+         url('texgyreadventor-italic-webfont.ttf') format('truetype'),
+         url('texgyreadventor-italic-webfont.svg#texgyreadventoritalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
-}
-p { font-family: "2dumbregular", Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {font-family: "Trebuchet MS", Helvetica, sans-serif !important;}
+
+p {color: #fff;}
 
 nav {
     display: block;
@@ -129,7 +161,7 @@ nav {
     cursor: pointer;
     font-size: 15px;
     position: relative;
-    bottom: 8px;
+    bottom: 10px;
     box-shadow: 0px 3px 0px #68962B;
 }
 .top-bar-section .right li a.nav-btn:hover {
