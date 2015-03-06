@@ -163,6 +163,7 @@ nav {
     position: relative;
     bottom: 10px;
     box-shadow: 0px 3px 0px #68962B;
+	margin-right: 10px;
 }
 .top-bar-section .right li a.nav-btn:hover {
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
