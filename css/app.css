@@ -4,10 +4,55 @@ body {
     line-height: 1.4;
     font-family: Helvetica, sans-serif;
 }
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('fonts/OpenSans-Semibold-webfont.eot');
+    src: url('fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/OpenSans-Light-webfont.eot');
+    src: url('fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*testing font*/
+@font-face {
+    font-family: '2dumbregular';
+    src: url('fonts/2Dumb-webfont.eot');
+    src: url('fonts/2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/2Dumb-webfont.woff') format('woff'),
+         url('fonts/2Dumb-webfont.ttf') format('truetype'),
+         url('fonts/2Dumb-webfont.svg#2dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Trebuchet MS", Helvetica, sans-serif !important;
 }
+p { font-family: "2dumbregular", Arial, sans-serif; }
 
 nav {
     display: block;
@@ -19,38 +64,39 @@ nav {
     width: 100%;
     opacity: 0.98;
     position: fixed;
-    top: 20px;
+    top: 0px;
     margin: auto;
     transition: all 0.25s ease 0s;
     border-bottom: 1px solid transparent;
-    background: transparent;
+    background: #fff;
+}
+.top-bar {
+    overflow: visible;
+    height: 55px;
+    line-height: 1px;
+    position: relative;
 }
 #navigation .navigation-container .top-bar {
     background: transparent;
     max-width: 65.5rem;
     margin: 0px auto;
 }
-.top-bar {
-    overflow: visible;
-    height: 85px;
-    line-height: 85px;
-    position: relative;
+.top-bar .right {
+    padding-top: 22px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    line-height: 1; 
+}
+/*logo display*/
+#navigation .navigation-container .name img {
+    width: 200px;
+    transition: all 00.25s ease 0s;
 }
 .top-bar .title-area {
     float: left;
     position: relative;
-    margin: 0px;
+    margin: 8px 0px 0px;
 }
-.top-bar .right {
-    padding-top: 20px;
-}
-
-/*logo display*/
-#navigation .navigation-container .name img {
-    width: 140px;
-    transition: all 00.25s ease 0s;
-}
-
 /*navigation transparency*/
 .navigation-container .top-bar-section ul li,
 .navigation-container .top-bar-section li:not(.has-form) a:not(.button) {
@@ -58,19 +104,38 @@ nav {
 }
 
 
-/*NAVIGATION TEXT*/
+/*navigation text*/
 .top-bar .top-bar-section ul li > a {
-    color: #FFF;
+    color: #000;
     text-transform: uppercase;
 }
 .top-bar .top-bar-section ul li > a:hover {
-    color: #CCC;
+    color: #8DC73F;
     transition: all 0.25s ease 0s;
-
 }
 .navigation-container .forward-slash {
-    line-height: 49px;
+    line-height: 1;
+    color: #000;
+}
+.top-bar-section .right li a.nav-btn {
+    display: inline-block;
+    width: 140px;
+    height: 31px;
+    background-color: #8DC73F !important;
+    border-radius: 3px;
     color: #FFF;
+    text-align: center;
+    line-height: 31px;
+    cursor: pointer;
+    font-size: 15px;
+    position: relative;
+    bottom: 8px;
+    box-shadow: 0px 3px 0px #68962B;
+}
+.top-bar-section .right li a.nav-btn:hover {
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    bottom: 5px;
+    color: #fff;
 }
 
 /*HEADER*/
