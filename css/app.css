@@ -256,6 +256,58 @@ video {
     background: rgba(0, 0, 0, 0.65);
 }
 
+/*IMAGE BACKGROUND*/
+
+.image-container {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+}
+
+.image_full_width {
+    transition: all 0.25s ease 0s;
+    min-width: 100%;
+    min-height: 100%;
+    margin-left: 0px;
+    margin-bottom: -3px;
+	background-color: black;
+	color: #FFF;
+	background-image: url('../img/my_collective.jpg');
+	opacity:0.5;
+}
+
+.image-container a.sign-up-button span {   
+    display: inline-block;
+    margin: 20px;
+    box-shadow: none;
+    border-radius: 0px;
+    width: 240px;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px 5px;
+    border: 5px solid rgb(141, 199, 63);
+    -webkit-transition: border-color 0.2s ease;
+    -o-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+    background: transparent repeat scroll 0% 0% #ccc;
+     -webkit-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #000;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    letter-spacing: 0.25em;
+}
+
+.image-container a.sign-up-button span:hover {
+    color: #000;
+    background-color: rgb(141, 199, 63);
+}
+
 
 /* Responsive
 -------------------------------------------------------------- */
@@ -274,17 +326,92 @@ video {
 
 }
 /* Mobile Universal [[ Orange Border ]] */
-@media only screen and (max-width: 767px) {    
+@media only screen and (max-width: 767px) {
    
 }
 /* Mobile (Landscape) [[ Pink ]] */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+header .headline{
+		color:black:
+	}    
    
 }
 /* Mobile (Landscape - Large Mobile, iPhone 5, etc.) [[ Purple ]] */
 @media only screen and (min-width: 640px) and (max-width: 767px) {    
+header .headline{
+	color:black:
+}    
 
 }
 /* Mobile (Portrait) [[ Gray ]] */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+header .headline{
+	color:black:
+}    
+
 }
+
+
+
+
+
+@media only screen and (max-width: 40em){
+	.image_full_width {background:url(../img/my_collective.jpg);
+				 background-repeat:no-repeat;
+				 background-size:cover;
+				 background-position:center center;
+				 height:670px}
+
+	header .headline {
+		color: #000;
+	}
+				 
+}
+
+@media only screen and (max-device-width: 40.063em) and (orientation: portrait){
+	.image_full_width {background:url(../img/my_collective.jpg);
+				 background-repeat:no-repeat;
+				 background-size:cover;
+				 background-position:center center;
+				 height:445px
+				}
+
+	header .headline {
+		color: #000;
+	}
+				
+}
+				 
+@media only screen and (max-device-width: 640px) and (orientation: landscape){
+	.image_full_width {background:url(../img/my_collective.jpg);
+				height:200px}
+				
+	header .headline {
+		color: #000;
+	}
+				
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+	.image_full_width {background:url(../img/my_collective.jpg);
+				 height:735px
+				}
+				
+	header .headline {
+		color: #000;
+	}
+				
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+	.image_full_width {background:url(../img/my_collective.jpg);
+				 height:991px
+				}
+				
+	header .headline {
+		color: #000;
+	}
+				
+}
+
+
