@@ -215,7 +215,8 @@ header .headline {
     font-size: 16px;
 }
 .hero-sub-description {
-    float: left;
+    /* float: left; */
+	display: inline-block;
     margin: 5px 5px 5px 5px;
 }
 .clear {
@@ -461,6 +462,8 @@ header .headline{
 
 	header .headline {
 		color: #fff;
+	header .title-section {
+		margin-top:10%;
 	}
 				 
 }
@@ -485,6 +488,8 @@ header .headline{
 				
 	header .headline {
 		color: #fff;
+	header .title-section{
+		margin-top:10%;
 	}
 				
 }
@@ -507,6 +512,8 @@ header .headline{
 				
 	header .headline {
 		color: #fff;
+	header .title-section {
+		margin-top:10%;		
 	}
 				
 }
