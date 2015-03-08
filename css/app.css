@@ -203,7 +203,6 @@ header .headline {
     height: 30%;
     position: absolute;
 }
-
 .hero-sub-description h2, h3 {
     color: #fff;
     text-transform: uppercase;
@@ -219,8 +218,10 @@ header .headline {
 	display: inline-block;
     margin: 5px 5px 5px 5px;
 }
-.clear {
-    clear: both;
+.hero-description span.plus {
+    position: relative;
+    top: -36px;
+    color: white;
 }
 
 
@@ -336,11 +337,25 @@ video {
     -o-transition: color 0.2s ease;
     transition: color 0.2s ease;
     letter-spacing: 0.25em;
+    background: #8dc73f;
+    font-weight: bold;
 }
 
 .image-container a.sign-up-button span:hover {
     color: #000;
-    background-color: rgb(141, 199, 63);
+    background-color: #fff
+}
+
+/*Footer Navigation*/
+.bottom-bar{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.bottom-bar-section .left li {
+    display: inline-block;
 }
 
 /*Mobile Navigation*/
