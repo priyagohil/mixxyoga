@@ -251,11 +251,12 @@ header .headline {
     transition: color 0.2s ease;
     letter-spacing: 0.25em;
 }
-
 .video-container a.sign-up-button span:hover {
-    color: #FFF;
-    background-color: rgb(141, 199, 63);
+    color: #080808;
+    background-color: #8DC73F;
+    font-weight: bold;
 }
+
 
 /*VIDEO BACKGROUND*/
 
@@ -352,10 +353,28 @@ video {
     bottom: 0px;
     width: 100%;
     margin-bottom: 0px;
+    background: #fff;
 }
-
 .bottom-bar-section .left li {
     display: inline-block;
+} 
+
+.left span.social-header,
+.left span a.contact-us {
+    position: relative;
+    top: 10px;
+}
+.left span.social-header,
+.left span a.contact-us {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: #000;
+}
+.left li a.social img {
+    width: 25px;
+    margin-top: 15px;
+    margin-right: 5px;
 }
 
 /*Mobile Navigation*/
