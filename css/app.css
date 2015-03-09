@@ -195,6 +195,7 @@ header.title-section {
 header .headline {
     text-transform: uppercase;
     color: #fff;
+	padding: 5px;
 }
 .absolute-centered {
     top: 0px;
