@@ -323,22 +323,26 @@ video {
 	color: #FFF;
 	background-image: url('../img/my_collective.jpg');
 }
-/*.image_full_width:before {
+.image_full_width:before {
     content: "";
     position: absolute;
     min-width: 100%;
     min-height: 100%;
     margin-bottom: -3px;
     background: rgba(0, 0, 0, 0.65);
-}*/
-.overlay{
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+}
+/*.overlay{
     position: absolute;
     min-width: 100%;
     min-height: 100%;
     margin-bottom: -3px;
     background: rgba(0, 0, 0, 0.65);
 	z-index:2;
-}
+}*/
 
 .image-container a.sign-up-button span {   
     display: inline-block;
