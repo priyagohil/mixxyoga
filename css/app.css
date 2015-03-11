@@ -456,7 +456,7 @@ ul.off-canvas-list li a:hover {
 				 height:445px
 				}
 
-	   h1 .headline {
+	h1 .headline {
         font-size: 38px
     }
     h2 .headline {
@@ -484,9 +484,10 @@ ul.off-canvas-list li a:hover {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
-	.image_full_width {background:url(../img/my_collective.jpg);
-				 height:735px
-				}
+	.image_full_width {
+        background:url(../img/my_collective.jpg);
+		height:735px
+	}
 				
 	h1 .headline {
         font-size: 38px
@@ -499,9 +500,10 @@ ul.off-canvas-list li a:hover {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
-	.image_full_width {background:url(../img/my_collective.jpg);
-				 height:991px
-				}
+	.image_full_width {
+        background:url(../img/my_collective.jpg);
+		height:991px
+	}
 				
 	h1 .headline {
         font-size: 38px
