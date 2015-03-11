@@ -323,8 +323,9 @@ video {
 }
 
 .image-container a.sign-up-button span:hover {
-    color: #000;
-    background-color: #fff
+    background-color: rgb(102, 102, 102);
+    border-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
 }
 
 /*Footer Navigation*/
