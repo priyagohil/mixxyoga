@@ -135,6 +135,16 @@ header .headline {
 	padding: 5px;
 }
 
+h1.headline {
+    margin-bottom: -25px;
+    font-size: 65px;
+    margin-right: 6px;
+}
+h2.headline {
+    font-size: 42px;
+    margin-left: 6px;
+    letter-spacing: 0.3rem;
+}
 .headline span  {
     font-family: "texgyreadventorbold", Helvetica, sans-serif !important;
 }
@@ -148,15 +158,28 @@ header .headline {
     height: 30%;
     position: absolute;
 }
+.hero-description {
+    margin: auto;
+    width: 870px;
+    background: rgba(255, 255, 255, 0.6) none repeat scroll 0% 0%;
+}
 .hero-sub-description h2, h3 {
     color: #fff;
     text-transform: uppercase;
 }
 .hero-sub-description h2 {
     font-size: 21px;
-}
+    font-family: "texgyreadventorbold", Helvetica, sans-serif !important;
+    color: #000;
+    margin-bottom: 0px;
+
+} 
 .hero-sub-description h3 {
     font-size: 16px;
+    font-family: "open-sans",sans-serif !important;
+    font-style: normal;
+    font-weight: 300;
+    color: #000;
 }
 .hero-sub-description {
     /* float: left; */
@@ -165,8 +188,8 @@ header .headline {
 }
 .hero-description span.plus {
     position: relative;
-    top: -36px;
-    color: white;
+    top: -28px;
+    color: #000;
 }
 
 
@@ -197,9 +220,8 @@ header .headline {
     letter-spacing: 0.25em;
 }
 .video-container a.sign-up-button span:hover {
-    color: #080808;
-    background-color: #8DC73F;
-    font-weight: bold;
+    border-color: rgb(102, 102, 102);
+    background-color: rgb(102, 102, 102);
 }
 
 
@@ -326,7 +348,7 @@ video {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    color: #000;
+    color: #8d8d8d;
 }
 .left li a.social img {
     width: 25px;
