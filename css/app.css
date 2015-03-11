@@ -88,6 +88,7 @@ nav {
 .top-bar .top-bar-section ul li > a {
     color: #000;
     text-transform: uppercase;
+    font-weight: bold; 
     font: 700 "Open-sans", sans-serif;
 }
 .top-bar .top-bar-section ul li > a:hover {
@@ -113,6 +114,8 @@ nav {
     bottom: 10px;
     box-shadow: 0px 3px 0px #68962B;
 	margin-right: 10px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
 }
 .top-bar-section .right li a.nav-btn:hover {
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
@@ -299,8 +302,8 @@ video {
     margin: 20px;
     box-shadow: none;
     border-radius: 0px;
-    width: 240px;
-    font-size: 12px;
+    width: 270px;
+    font-size: 13px;
     line-height: 1;
     padding: 5px 5px;
     border: 5px solid rgb(141, 199, 63);
@@ -327,7 +330,12 @@ video {
     border-color: rgb(102, 102, 102);
     color: rgb(255, 255, 255);
 }
-
+.image-container p {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-size: 17px;
+}
 /*Footer Navigation*/
 .bottom-bar{
     position: fixed;
@@ -435,13 +443,14 @@ ul.off-canvas-list li a:hover {
 				 background-position:center center;
 				 height:670px}
 
-	h1 .headline {
-		font-size: 38px
+   .image-container header h1 .headline {
+        font-size: 38px;
     }
-    h2 .headline {
+    header h2 .headline {
         font-size: 20px;
         padding-top: 47px;
     }
+        
 	header .title-section {
 		margin-top:10%;
 	}
@@ -457,7 +466,7 @@ ul.off-canvas-list li a:hover {
 				}
 
 	h1 .headline {
-        font-size: 38px
+        font-size: 38px;
     }
     h2 .headline {
         font-size: 20px;
@@ -471,7 +480,7 @@ ul.off-canvas-list li a:hover {
 				height:200px}
 				
 	h1 .headline {
-        font-size: 38px
+        font-size: 38px;
     }
     h2 .headline {
         font-size: 20px;
@@ -486,11 +495,11 @@ ul.off-canvas-list li a:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
 	.image_full_width {
         background:url(../img/my_collective.jpg);
-		height:735px
+		height:735px;
 	}
 				
 	h1 .headline {
-        font-size: 38px
+        font-size: 38px;
     }
     h2 .headline {
         font-size: 20px;
@@ -502,11 +511,11 @@ ul.off-canvas-list li a:hover {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
 	.image_full_width {
         background:url(../img/my_collective.jpg);
-		height:991px
+		height:991px;
 	}
 				
 	h1 .headline {
-        font-size: 38px
+        font-size: 38px;
     }
     h2 .headline {
         font-size: 20px;
