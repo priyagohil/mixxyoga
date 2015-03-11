@@ -475,8 +475,8 @@ ul.off-canvas-list li a:hover {
         font-weight: bold;
         letter-spacing: 0.1rem;
     }
-    header .title-section {
-        margin-top: 29%;
+    .title-section {
+        margin-top: 15%;
     }
 
    
@@ -502,8 +502,8 @@ ul.off-canvas-list li a:hover {
         font-weight: bold;
         letter-spacing: 0.1rem;
     }
-    header .title-section {
-        margin-top: 10%;
+    .title-section {
+        margin-top: 15%;
     }
 
 }
