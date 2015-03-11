@@ -130,18 +130,9 @@ header.title-section {
     opacity: 1
     transform: translate(0%, 0%);
     text-align: center;
-	margin-top: 20%;
 	z-index:3;
 }
 
-header.title-section {
-    display: block;
-    opacity: 1
-    transform: translate(0%, 0%);
-    text-align: center;
-	margin-top: 20%;
-	z-index:3;
-}
 header .headline1 {
     text-transform: uppercase;
     color: #FFF;
@@ -312,17 +303,11 @@ video {
 
 .image-container a.sign-up-button span {   
     display: inline-block;
-    margin: 20px;
     box-shadow: none;
     border-radius: 0px;
     width: 270px;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1;
-    padding: 5px 5px;
-    border: 5px solid rgb(141, 199, 63);
-    -webkit-transition: border-color 0.2s ease;
-    -o-transition: border-color 0.2s ease;
-    transition: border-color 0.2s ease;
     background: transparent repeat scroll 0% 0% #ccc;
      -webkit-transition: background-color 0.2s ease;
     -o-transition: background-color 0.2s ease;
@@ -336,11 +321,15 @@ video {
     letter-spacing: 0.25em;
     background: #8dc73f;
     font-weight: bold;
+    margin-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .image-container a.sign-up-button span:hover {
     background-color: rgb(102, 102, 102);
-    border-color: rgb(102, 102, 102);
     color: rgb(255, 255, 255);
 }
 .image-container p {
@@ -448,77 +437,102 @@ ul.off-canvas-list li a:hover {
 /* Responsive
 -------------------------------------------------------------- */
 
+/* Widescreen [[ Blue ]] */
+@media only screen and (min-width: 1280px)  {
 
-@media only screen and (max-width: 40em){
-	.image_full_width {background:url(../img/my_collective.jpg);
-				 background-repeat:no-repeat;
-				 background-size:cover;
-				 background-position:center center;
-				 height:670px;
+}
+/* Small Desktops [[ Brown ]] */
+@media only screen and (min-width: 960px) and (max-width: 1586px) {
+  
+}
+/* Tablet (Portrait) [[ Yellow ]] */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+ 
+
+}
+/* Mobile Universal [[ Orange Border ]] */
+@media only screen and (max-width: 767px) {
+   
+}
+/* Mobile (Landscape) [[ Pink ]] */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   .image_full_width {background:url(../img/my_collective.jpg);
+                 background-repeat:no-repeat;
+                 background-size:cover;
+                 background-position:center center;
+                 height:670px;
     }
-						 
-	header .headline1 {
-		font-size: 38px;
+                         
+    header .headline1 {
+        font-size: 35px;
     }
     header .headline2 {
-        font-size: 20px;
-        padding-top: 47px;
+        font-size: 27px;
+        padding-top: 17px;
     }
-        
-	header .title-section {
-		margin-top:10%;
-	}
-				 
+    .image-container p {
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+    }
+    header .title-section {
+        margin-top: 29%;
+    }
+
+   
 }
-
-@media only screen and (max-device-width: 40.063em) and (orientation: portrait){
-	.image_full_width {background:url(../img/my_collective.jpg);
-				 background-repeat:no-repeat;
-				 background-size:cover;
-				 background-position:center center;
-				 height:445px;
-				}
-
-	header .headline1 {
-		font-size: 38px;
+/* Mobile (Landscape - Large Mobile, iPhone 5, etc.) [[ Purple ]] */
+@media only screen and (min-width: 640px) and (max-width: 767px) {    
+    .image_full_width {background:url(../img/my_collective.jpg);
+                 background-repeat:no-repeat;
+                 background-size:cover;
+                 background-position:center center;
+                 height:670px;
+    }
+                         
+    header .headline1 {
+        font-size: 35px;
     }
     header .headline2 {
-        font-size: 20px;
-        padding-top: 47px;
+        font-size: 27px;
+        padding-top: 17px;
     }
-	header .title-section {
-		margin-top:10%;
-	}
-				
+    .image-container p {
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+    }
+    header .title-section {
+        margin-top: 29%;
+    }
+
 }
-				 
-@media only screen and (max-device-width: 640px) and (orientation: landscape){
-	.image_full_width {background:url(../img/my_collective.jpg);
-				height:200px;}
-				
-	header .headline1 {
-		font-size: 38px;
+/* Mobile (Portrait) [[ Gray ]] */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+   .image_full_width {background:url(../img/my_collective.jpg);
+                 background-repeat:no-repeat;
+                 background-size:cover;
+                 background-position:center center;
+                 height:670px;
+    }
+                         
+    header .headline1 {
+        font-size: 35px;
     }
     header .headline2 {
-        font-size: 20px;
-        padding-top: 47px;
+        font-size: 27px;
+        padding-top: 17px;
     }
-	header .title-section{
-		margin-top:10%;
-	}
-				
-}
+    .image-container p {
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+    }
+    header .title-section {
+        margin-top: 29%;
+    }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
-	.image_full_width {background:url(../img/my_collective.jpg);
-				 height:735px;
-				}		
-}
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
-	.image_full_width {background:url(../img/my_collective.jpg);
-				 height:991px;
-				}
 }
 
 
