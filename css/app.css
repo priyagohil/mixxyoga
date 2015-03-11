@@ -314,7 +314,7 @@ video {
     transition: background-color 0.2s ease;
     cursor: pointer;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     -webkit-transition: color 0.2s ease;
     -o-transition: color 0.2s ease;
     transition: color 0.2s ease;
@@ -503,7 +503,7 @@ ul.off-canvas-list li a:hover {
         letter-spacing: 0.1rem;
     }
     header .title-section {
-        margin-top: 29%;
+        margin-top: 10%;
     }
 
 }
