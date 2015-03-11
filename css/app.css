@@ -447,7 +447,35 @@ ul.off-canvas-list li a:hover {
 }
 /* Tablet (Portrait) [[ Yellow ]] */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
- 
+   .image_full_width {background:url(../img/my_collective.jpg);
+                 background-repeat:no-repeat;
+                 background-size:cover;
+                 background-position:center center;
+                 height:670px;
+    }
+                         
+    header .headline1 {
+        font-size: 49px;
+    }
+    header .headline2 {
+        font-size: 27px;
+        padding-top: 17px;
+    }
+    .image-container p {
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+    }
+    .title-section {
+        /*margin-top: 15%;*/
+    }
+
+    .image-container a.sign-up-button span {
+        margin-top: 78px;
+        padding: 9px 10px;
+        font-size: 15px;
+        width: 309px;
+    }
 
 }
 /* Mobile Universal [[ Orange Border ]] */
