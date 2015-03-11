@@ -88,6 +88,7 @@ nav {
 .top-bar .top-bar-section ul li > a {
     color: #000;
     text-transform: uppercase;
+    font: 700 "Open-sans", sans-serif;
 }
 .top-bar .top-bar-section ul li > a:hover {
     color: #8DC73F;
@@ -126,7 +127,7 @@ header.title-section {
     opacity: 1
     transform: translate(0%, 0%);
     text-align: center;
-	margin-top:10%;
+	margin-top: 20%;
 	z-index:3;
 }
 header .headline {
