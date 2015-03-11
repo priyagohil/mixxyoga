@@ -30,7 +30,7 @@
 
 }
 
-h1, h2, h3, h4, h5, h6 {font: "texgyreadventorregular", Helvetica, sans-serif !important;}
+h1, h2, h3, h4, h5, h6 {font-family: "texgyreadventorregular", Helvetica, sans-serif !important;}
 
 p {font: 400 "Open-sans", sans-serif; color: #fff;}
 
@@ -135,8 +135,8 @@ header .headline {
 	padding: 5px;
 }
 
-.headline h1 {
-    font-family: "texgyreadventorregular"
+.headline span  {
+    font-family: "texgyreadventorbold", Helvetica, sans-serif !important;
 }
 .absolute-centered {
     top: 0px;
