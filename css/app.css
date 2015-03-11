@@ -133,23 +133,31 @@ header.title-section {
 	margin-top: 20%;
 	z-index:3;
 }
-header .headline {
+
+header.title-section {
+    display: block;
+    opacity: 1
+    transform: translate(0%, 0%);
+    text-align: center;
+	margin-top:10%;
+	z-index:3;
+}
+header .headline1 {
+    text-transform: uppercase;
+    color: #fff;
+	padding: 5px;
+}
+header .headline2 {
     text-transform: uppercase;
     color: #fff;
 	padding: 5px;
 }
 
-h1.headline {
-    margin-bottom: -25px;
-    font-size: 65px;
-    margin-right: 6px;
+.headline1 h1 {
+    font-family: "texgyreadventorregular"
 }
-h2.headline {
-    font-size: 42px;
-    margin-left: 6px;
-    letter-spacing: 0.3rem;
-}
-.headline span  {
+
+.headline1 span  {
     font-family: "texgyreadventorbold", Helvetica, sans-serif !important;
 }
 .absolute-centered {
@@ -442,11 +450,11 @@ ul.off-canvas-list li a:hover {
 				 background-size:cover;
 				 background-position:center center;
 				 height:670px}
-
-   .image-container header h1 .headline {
-        font-size: 38px;
+						 
+	header .headline1 {
+		font-size: 38px;
     }
-    header h2 .headline {
+    header .headline2 {
         font-size: 20px;
         padding-top: 47px;
     }
@@ -465,13 +473,16 @@ ul.off-canvas-list li a:hover {
 				 height:445px
 				}
 
-	h1 .headline {
-        font-size: 38px;
+	header .headline1 {
+		font-size: 38px;
     }
-    h2 .headline {
+    header .headline2 {
         font-size: 20px;
         padding-top: 47px;
     }
+	header .title-section {
+		margin-top:10%;
+	}
 				
 }
 				 
@@ -479,10 +490,10 @@ ul.off-canvas-list li a:hover {
 	.image_full_width {background:url(../img/my_collective.jpg);
 				height:200px}
 				
-	h1 .headline {
-        font-size: 38px;
+	header .headline1 {
+		font-size: 38px;
     }
-    h2 .headline {
+    header .headline2 {
         font-size: 20px;
         padding-top: 47px;
     }
@@ -493,15 +504,14 @@ ul.off-canvas-list li a:hover {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
-	.image_full_width {
-        background:url(../img/my_collective.jpg);
-		height:735px;
-	}
+	.image_full_width {background:url(../img/my_collective.jpg);
+				 height:735px
+				}
 				
-	h1 .headline {
-        font-size: 38px;
+	header .headline1 {
+		font-size: 38px;
     }
-    h2 .headline {
+    header .headline2 {
         font-size: 20px;
         padding-top: 47px;
     }
@@ -509,15 +519,14 @@ ul.off-canvas-list li a:hover {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
-	.image_full_width {
-        background:url(../img/my_collective.jpg);
-		height:991px;
-	}
+	.image_full_width {background:url(../img/my_collective.jpg);
+				 height:991px
+				}
 				
-	h1 .headline {
-        font-size: 38px;
+	header .headline1 {
+		font-size: 38px;
     }
-    h2 .headline {
+    header .headline2 {
         font-size: 20px;
         padding-top: 47px;
     }
