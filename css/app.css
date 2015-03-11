@@ -125,10 +125,10 @@ nav {
 
 /*HEADER*/
 
-header.title-section {
+header .title-section {
     display: block;
-    opacity: 1
-    transform: translate(0%, 0%);
+    opacity: 1;
+/*    transform: translate(0%, 0%);*/
     text-align: center;
 	z-index:3;
 }
@@ -509,11 +509,12 @@ ul.off-canvas-list li a:hover {
 }
 /* Mobile (Portrait) [[ Gray ]] */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-   .image_full_width {background:url(../img/my_collective.jpg);
-                 background-repeat:no-repeat;
-                 background-size:cover;
-                 background-position:center center;
-                 height:670px;
+   .image_full_width {
+        background:url(../img/my_collective.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center center;
+        height:670px;
     }
                          
     header .headline1 {
@@ -528,8 +529,11 @@ ul.off-canvas-list li a:hover {
         font-weight: bold;
         letter-spacing: 0.1rem;
     }
-    header .title-section {
-        margin-top: 29%;
+    .title-section {
+        margin-top: 10%;
+    }
+    .absolute-centered {
+        margin: none;
     }
 
 
