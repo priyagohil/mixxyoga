@@ -351,14 +351,18 @@ video {
 .bottom-bar-section .left li {
     display: inline-block;
 } 
-
-.left span.social-header,
-.left span a.contact-us {
+.copyright {
+    font-weight: lighter;
+    margin-right: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #8D8D8D;
+}
+.social-header, .copyright {
     position: relative;
     top: 10px;
 }
-.left span.social-header,
-.left span a.contact-us {
+.social-header {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1rem;
