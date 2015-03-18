@@ -99,6 +99,14 @@ nav {
     line-height: 1;
     color: #000;
 }
+.top-bar .top-bar-section ul li > a.login {
+    color: #B0B0B0;
+    font-weight: normal;
+    padding-left: 0px;
+}
+.top-bar .top-bar-section ul li > a.login:hover {
+    color: #000;
+}
 .top-bar-section .right li a.nav-btn {
     display: inline-block;
     width: 140px;
@@ -362,11 +370,21 @@ video {
     position: relative;
     top: 10px;
 }
-.social-header {
+.social-header, .address {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1rem;
     color: #8d8d8d;
+}
+
+.address {
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+    font-size: ;
+}
+.address:hover {
+    color: #000;
 }
 .left li a.social img {
     width: 25px;
